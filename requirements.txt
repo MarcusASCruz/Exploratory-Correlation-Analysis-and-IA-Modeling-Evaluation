@@ -1,0 +1,9 @@
+scikit-learn==1.7.2
+scikeras==0.13.0
+xgboost==3.0.5
+matplotlib==3.10.6
+numpy==2.3.3
+tensorflow==2.20.0
+cudf==25.08.00
+cuml==25.08.00
+pandas==2.3.3
