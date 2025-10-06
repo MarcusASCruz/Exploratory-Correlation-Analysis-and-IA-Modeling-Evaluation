@@ -1,0 +1,23 @@
+# Arquivos de log e cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+/lib/python*/site-packages/
+
+# Dados e saídas grandes
+# Mantenha os notebooks, mas ignore os dados brutos e os arquivos de saída gerados
+# Use esta regra se você não quiser fazer o upload dos dados para o GitHub
+# Caso você vá fazer o upload dos dados, remova ou comente a linha abaixo.
+data/
+output/
+.ipynb_checkpoints/
+
+# Arquivos temporários e de sistema
+.DS_Store
+Thumbs.db
